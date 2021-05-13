@@ -1,10 +1,5 @@
 package tryCatch;
 
-import java.io.FileNotFoundException;
-import java.nio.file.FileSystemException;
-
-import javax.annotation.processing.FilerException;
-
 public class TryWithMultipleCatch {
 	public static void main(String[] args) {
 		try {
