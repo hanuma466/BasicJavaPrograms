@@ -1,4 +1,4 @@
-package Basics;
+package myPractice;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;

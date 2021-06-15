@@ -1,4 +1,4 @@
-package Basics;
+package myPractice;
 
 public class ReverseTheSentence {
 	public static void main(String[] args) {

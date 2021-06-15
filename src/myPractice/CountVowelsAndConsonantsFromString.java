@@ -1,4 +1,4 @@
-package Basics;
+package myPractice;
 
 public class CountVowelsAndConsonantsFromString {
 	public static void main(String[] args) {

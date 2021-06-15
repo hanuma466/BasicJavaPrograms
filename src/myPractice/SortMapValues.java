@@ -1,9 +1,12 @@
-package Basics;
+package myPractice;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class SortMapValues {
 
@@ -12,10 +15,15 @@ public class SortMapValues {
 		s.put("test1",7);
 		s.put("test5", 3);
 		s.put("test2", 1);
+
+		s.put("test3", 1);
 		s.put("test8", 9);
 		
+		sortmap11(s);
+		
 		//1st way
-		sortmap(s);
+		sortmap(s);//1st way
+		sortmap1(s);
 		
 		//2nd way
 		Map<String,Integer>fi=new LinkedHashMap<String, Integer>();
@@ -36,6 +44,7 @@ public class SortMapValues {
 		}
 		System.out.println(fi);
 		
+		
 	}
 	
 	public static void sortmap(Map<String, Integer>map) {
@@ -54,6 +63,18 @@ public class SortMapValues {
 		  .stream()
 		  .sorted(Map.Entry.comparingByValue())
 		  .forEach(System.out::println);
+	}
+	public static void sortmap11(Map<String, Integer>map) {
+		Stream<Entry<String,Integer>>m=map.entrySet()
+		  .stream()
+		  .sorted(Map.Entry.comparingByValue());
+		
+		Iterator<Entry<String,Integer>>s=m.iterator();
+		while(s.hasNext()) {
+			Entry<String,Integer>k=s.next();
+			System.out.println(k.getKey()+"  "+k.getValue());
+		}
+		 
 	}
 
 

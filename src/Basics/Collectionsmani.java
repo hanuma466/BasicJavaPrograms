@@ -49,7 +49,7 @@ public class Collectionsmani {
 		Set<Integer>tt=new TreeSet<Integer>(s);
 		System.out.println(tg);
 		System.out.println("...........................");
-		System.out.println(tt);
+		System.out.println("sorted ..."+tt);
 		System.out.println("------------------------------------");
 		//transversing the elements using iterator
 		Iterator<Integer>itr=tg.iterator();
@@ -86,9 +86,12 @@ public class Collectionsmani {
 		System.out.println(p.matcher("8985006866").matches());
 		
 		Random r=new Random();
+		System.out.println("random value...."+r.ints(0, 10));
 		System.out.println(Math.random());
 		
 		Integer[] dh= {1,2,3,1,5,0,5,9};
+		
+		
 		//converting array to list
 		List<Integer>sh=Arrays.asList(dh);
 		//sorting the array
