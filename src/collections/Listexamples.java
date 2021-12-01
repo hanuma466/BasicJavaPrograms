@@ -11,6 +11,7 @@ public class Listexamples {
 	}
 	
 	public static void listComparision() {
+		
 		String[] arr= {"test",new String("t"),"automation"};
 		String[] arr1= {"test","t","automation"};
 		List<String>li=new LinkedList<>(Arrays.asList(arr));
