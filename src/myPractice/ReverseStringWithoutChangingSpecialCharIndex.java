@@ -6,6 +6,7 @@ public class ReverseStringWithoutChangingSpecialCharIndex {
 	public static void main(String[] args) {
 		String s="te#st@ing";
 		way2(s);
+		
 		way1(s);
 	}
 	public static void way1(String s) {
