@@ -45,6 +45,8 @@ public class Collectionsmani {
 		System.out.println(s);
 		//removing duplicates from list and converting list to set
 		Set<Integer>tg =new LinkedHashSet<Integer>(s);
+		List<Integer>td=new ArrayList<>(tg);
+		System.out.println(td);
 		//maintaining the sorting order
 		Set<Integer>tt=new TreeSet<Integer>(s);
 		System.out.println(tg);

@@ -20,5 +20,8 @@ public class Stringreverse {
 		System.out.println();
 		s.chars().sorted().forEach(a->System.out.print((char)a));
 		
+		String k="hanuma";
+		k.chars().distinct().sorted().forEach(a->System.out.println((char)a));
+		
 	}
 }
