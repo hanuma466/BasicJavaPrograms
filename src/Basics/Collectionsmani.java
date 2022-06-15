@@ -61,7 +61,7 @@ public class Collectionsmani {
 		}
 		System.out.println();
 		System.out.println("///////////////////////////");
-		//transversing the elements using Listiterator
+		//transversing the elements using List iterator
 		ListIterator<Integer>ls=s.listIterator();
 		while(ls.hasNext()) {
 			System.out.print(ls.next());
@@ -104,7 +104,7 @@ public class Collectionsmani {
 		}
 		
 		System.out.println();
-		s.stream(                                                                                                                             ).sorted().forEach(a->System.out.print(a));
+		s.stream().sorted().forEach(a->System.out.print(a));
 		System.out.println();
 		System.out.println("[[[[[[[[[[[[[[[[[[[[[[[[[[[");
 		System.out.println(s.stream().filter(a->a%2==0).collect(Collectors.toList()));

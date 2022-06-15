@@ -4,6 +4,7 @@ public class TryCatchFinallyReturn {
 public static void main(String[] args) {
 	System.out.println(test());
 }
+@SuppressWarnings("finally")
 public static int test() {
 	try {
 		System.out.println("try exxecuted...");

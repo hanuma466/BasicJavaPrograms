@@ -1,5 +1,7 @@
 package Basics;
 
+
+
 public class Pyramid {
 	public static void main(String[] args) {
 

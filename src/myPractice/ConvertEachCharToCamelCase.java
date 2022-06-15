@@ -21,7 +21,7 @@ public class ConvertEachCharToCamelCase {
 
 		}
 		System.out.println(temp);
-		convert(s);
+		//convert(s);
 		System.out.println(s.length());
 		System.out.println(s.trim().length());
 		

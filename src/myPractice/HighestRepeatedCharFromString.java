@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class HighestRepeatedCharFromString {
 	public static void main(String[] args) {
-		String s = "abcabcaaaa";
+		String s = "abcabcccaaaabbbaaaa";
 		HashMap<Character, Integer> t = new HashMap<Character, Integer>();
 		for (char c : s.toCharArray()) {
 			if (t.containsKey(c)) {

@@ -12,6 +12,9 @@ public class Mychild extends AbstractClass {
 	public int lowest() {
 		return 2;
 	}
+	private int lowest2() {
+		return 2;
+	}
 	public static void main(String[] args) {
 		AbstractClass ch=new Mychild();
 		 System.out.println(ch.lowest());

@@ -3,7 +3,7 @@ package abstractionn;
 public abstract class AbstractClass implements Myinterface {
 	
 	public AbstractClass() {
-		System.out.println("abstract class object created..");
+		System.out.println("abstract class object constructor called..");
 	}
 	
 	
