@@ -6,7 +6,6 @@ import java.util.List;
 
 public class Listexamples {
 	
-	
 	public static void main(String[] args) {
 		listComparision();
 	}
